@@ -38,7 +38,7 @@ const MealDetailScreen = props => {
   useEffect(() => {
     props.navigation.setParams({ isFav: currentMealIsFavorite });
   }, [currentMealIsFavorite]);
-
+console.log('selectedMeal.imageUrl = ', selectedMeal.imageUrl)
   return (
     <ScrollView>
       <Image source={{ uri: selectedMeal.imageUrl }} style={styles.image} />
