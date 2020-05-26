@@ -3,7 +3,10 @@ React Native Meals Application
 
 Demo app of to choose a receipt from, filter, get details, add to favourites
 
-To start this project:
+Live demonstration is at:
+https://snack.expo.io/@git/github.com/Smetukh/rn-meals
+
+To start this project locally:
 
 npm install expo-cli -- global
 clone https://github.com/Smetukh/rn-meals.git
